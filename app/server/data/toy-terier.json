@@ -1,0 +1,66 @@
+{
+  "id": 2,
+  "slug": "toy-terier",
+  "title": "-",
+  "subtitle": "",
+  "author": {
+    "id": 1,
+    "name": "Aishiteka",
+    "avatar": "/images/authors/Aishiteka.png"
+  },
+  "cover": {
+    "url": "/images/covers/ToyTerier.jpg",
+    "alt": "-"
+  },
+  "publishedAt": "2026-01-01T10:00:00Z",
+  "updatedAt": "2026-01-01T10:00:00Z",
+  "readingTime": 9,
+  "tags": ["той-терьер", "собаки", "питомцы"],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "text": ""
+    },
+    {
+      "type": "image",
+      "path": "",
+      "alt": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "text": ""
+    },
+    {
+      "type": "image",
+      "path": "",
+      "alt": ""
+    },
+    {
+      "type": "paragraph",
+      "text": ""
+    }
+  ]
+}

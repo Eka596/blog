@@ -1,0 +1,200 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url("fonts/Quicksand-VariableFont_wght.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: row;
+}
+a {
+    text-decoration: none;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    padding-block: 24px;
+    gap: 24px;
+}
+img {
+    display: inherit;
+}
+
+/* STANDART UTILS*/
+.PaddingInline48 {
+    padding-inline: 48px;
+}
+.PaddingInline12 {
+    padding-inline: 12px;
+}
+.PaddingInline4 {
+    padding-inline: 4px;
+}
+.Padding12 {
+    padding: 12px;
+}
+.Margin {
+    margin-block: 24px;
+}
+.Gap24 {
+    gap: 24px;
+}
+.Gap12 {
+    gap: 12px;
+}
+.Gap8 {
+    gap: 8px;
+}
+.WFull {
+    width: 100%;
+}
+.MaxW {
+    max-width: 1280px;
+}
+.MaxW60 {
+    max-width: 60px;
+}
+.MinW550 {
+    min-width: 550px;
+}
+.HFull {
+    height: 100%;
+}
+.FlexRow {
+    display: flex;
+    flex-direction: row;
+}
+.FlexCol {
+    display: flex;
+    flex-direction: column;
+}
+.Center {
+    justify-content: center;
+    align-items: center;
+}
+.TopRight {
+    justify-content: start;
+    align-items: end;
+}
+.TopLeft {
+    justify-content: start;
+    align-items: start;
+}
+.SpaceBtw {
+    justify-content: space-between;
+}
+.BGMain {
+    background-color: #7B7F8B;
+}
+.Pointer {
+    cursor: pointer;
+}
+.Font16B {
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.Font14M {
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+.Font14R {
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+/* LOGO */
+.FontLogo {
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* NAVIGATION */
+.NavMenuBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 12px;
+    height: 100%;
+    cursor: pointer;
+}
+.NavMenuBtn a {
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+.fa-magnifying-glass {
+    font-size: 24px;
+    color: #fff;
+}
+/* POSTS */
+.PostCard {
+    background-color: #E9E7E8;
+    width: 100%;
+    max-width: 770px;
+    height: 250px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+.Tags {
+    margin-bottom: 24px;
+}
+.Tag {
+    background-color: #5F5651;
+    padding: 4px;
+    font-family: Quicksand;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+}
+.Read {
+    background-color: #6A7E99;
+    color: #fff;
+    padding-inline: 12px;
+    padding-block: 4px;
+}
+.Cover {
+    height: 200px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    display: block;
+}
+.CardContent {
+    height: 180px;
+}
+#posts {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.PostSubTitle {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.AuthorAvatar {
+    max-height: 24px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
